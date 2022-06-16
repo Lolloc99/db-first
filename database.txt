@@ -1,0 +1,32 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+Create un file txt, dove indicate il nome della tabella, le colonne con tipi di dato ed eventuali attributi.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+CARS
+
+id - INT - PRIMARY KEY - NOTNULL - AUTOINCREMENT - UNIQUE
+targa - VARCHAR(7) - NOTNULL - UNIQUE
+marca - VARCHAR(30) - NOTNULL
+modello - VARCHAR(30) - NOTNULL
+versione - VARCHAR(10) - NOTNULL
+carozzeria - VARCHAR(30) - NULL
+anno - YEAR - NOTNULL - NULL
+prezzo - DECIMAL(14,2) - NULL
+chilometraggio - INT - NULL
+carburante - VARCHAR(20) - NOTNULL
+potenzaKW - INT - NOTNULL
+potenzaCV - INT - NOTNULL
+cambio - VARCHAR(20) - NOTNULL
+porte - TINYINT - NOTNULL
+posti - TINYINT - NOTNULL
+condizioni - VARCHAR(20) - NULL
+venditore - VARCHAR(20) - NULL
+paese - VARCHAR(30) - NULL
+città - VARCHAR(40) - NULL
+dotazioni - TEXT - NULL
+colore_carozzeria - VARCHAR(20) - NULL
+colore_interni - VARCHAR(20) - NULL
+materiale - VARCHAR(20) - NULL
+bollino_ambientale - TINYINT - NOTNULL
+classe_emissioni(euro) - TINYINT - NOTNULL
